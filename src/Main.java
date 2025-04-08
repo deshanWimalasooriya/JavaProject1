@@ -1,5 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, Java Project!");
+        //Create Student objects
+        Student student1 = new Student("001", "Deshan", 24, 'A');
+
+        //Display Student Information
+        student1.DisplayStudentDetails();
     }
 }
