@@ -26,4 +26,14 @@ public class Student {
         System.out.println("Grade: " + grade);
         System.out.println();
     }
+
+    //To find factorial numbers
+    public void FacNum(int number)
+    {   int out = 1;
+        for(int i=1;i<=number;i++)
+        {
+            out = out * i;
+        }
+        System.out.println("The factorial number of the "+ number +" is "+out );
+    }
 }

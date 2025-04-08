@@ -22,5 +22,9 @@ public class Main {
         for(int i=0; i<students.size(); i++){
             students.get(i).DisplayStudentDetails();
         }
+
+
+        // Dilanka created factorial number finder
+        students.get(1).FacNum(4);
     }
 }
