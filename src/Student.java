@@ -9,6 +9,9 @@ public class Student {
 
     // Constructor
     public Student(String StudentId, String name, int age, char grade){
+        if (age < 0){
+            throw new IllegalArgumentException("Age cannot be negative");
+        }
         this.studentId = StudentId;
         this.name = name;
         this.age = age;
