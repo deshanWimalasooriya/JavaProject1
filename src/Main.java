@@ -23,8 +23,5 @@ public class Main {
             students.get(i).DisplayStudentDetails();
         }
 
-
-        // Dilanka created factorial number finder
-        students.get(1).FacNum(4);
     }
 }
